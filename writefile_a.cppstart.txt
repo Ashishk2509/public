@@ -1,0 +1,5 @@
+%%writefile a.cpp//start
+\\then
+! g++ -o a -fopenmp a.cpp
+\\then
+! ./a
